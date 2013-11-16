@@ -1,0 +1,14 @@
+{
+    "name": "jtreminio/authorizenet-sdk",
+    "require": {
+        "ext-curl": "*",
+        "ext-SimpleXML": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit":                           "3.7.27",
+        "whatthejeff/nyancat-phpunit-resultprinter": "1.2.0"
+    },
+    "autoload": {
+        "psr-0": {"AuthorizeNet": "src/"}
+    }
+}
